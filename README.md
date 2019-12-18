@@ -28,3 +28,9 @@ javac *.java
 $ java Driver <fileName>
 ```
 **Note**: The program needs a filename to be passed as a command line argument to execute without any issues.
+
+Cleaning files at the end of execution:
+```
+$ make clean
+rm -rf *.class
+```
